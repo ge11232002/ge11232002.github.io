@@ -1,0 +1,35 @@
+baseurl = "https://nanx.me/hugo-tanka/"
+title = "Hugo Tanka Theme"
+author = "Nan Xiao"
+canonifyurls = true
+languagecode = "en"
+theme = "hugo-tanka"
+
+googleAnalytics = ""
+disqusShortname = ""
+disable_mathjax = false
+
+pygmentsstyle      = "vs"
+pygmentscodefences = true
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  sitename = "Ge Tan"
+
+[[menu.main]]
+    name = "Home"
+    url = "https://nanx.me"
+    weight = 1
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/ge11232002"
+    weight = 2
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/ge11232002"
+    weight = 4
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
